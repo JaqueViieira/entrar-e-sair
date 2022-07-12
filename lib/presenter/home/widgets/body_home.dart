@@ -26,6 +26,7 @@ class _BodyHomeState extends State<BodyHome> {
 
   bool get isEmpty => count == 0;
   bool get isFull => count == 20;
+
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -13,7 +13,7 @@ class CustomCard extends StatelessWidget {
     return Card(
       surfaceTintColor: Colors.white,
       color:
-          isFull ? Colors.red.withOpacity(0.6) : Colors.white.withOpacity(0.5),
+          isFull ? Colors.red.withOpacity(0.5) : Colors.white.withOpacity(0.5),
       child: Padding(
         padding: const EdgeInsets.all(9.0),
         child: Text(
